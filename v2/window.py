@@ -50,10 +50,7 @@ class Gui:
 
             # Run the function to get the password:
             answer = password.password_generator(char, uppr, num, sym)
-
-            # Print the answer while I'm still writing the code to make sure it's working:
-            print(answer)
-
+            
             # Copy the new password to the clipboard:
             window.withdraw()
             window.clipboard_clear()
